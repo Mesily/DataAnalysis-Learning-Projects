@@ -4,6 +4,12 @@ This is where I documented my projects while self-learning Data Analysis
 
 ## Project Title: E Commerce Sales Analysis
 ---
+[Project Overview](#project-overview)
+[Data Sources](#data-sources)
+[Tools](#tools)
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+[Exploratory Data Analysis](#exploratory-data-analysis)
+[Data Analysis](#data-analysis)
 ### Project Overview:
 ---
 ### Data Sources:
@@ -31,11 +37,17 @@ EDA involved exploring the data to answer the following questions:
 2. Which Product is the top sold?
 3. What products are on peak sales?
 
-###Data Analysis
+### Data Analysis
 This includes the some basic lines of code, queries and DAX expressions used
 E.g
 ```SQL
 SELECT * FROM TABLE 1
 WHERE COUNTRY = NIGERIA
 ```
+
+|S/No|Description|Amount|
+|----|-----------|------|
+|1|Sales Volume at Aba|10,000|
+|2|number of new employees|8|
+|3|Average Revenue for the month|25,000|
 
