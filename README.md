@@ -5,11 +5,17 @@ This is where I documented my projects while self-learning Data Analysis
 ## Project Title: E Commerce Sales Analysis
 ---
 [Project Overview](#project-overview)
+
 [Data Sources](#data-sources)
+
 [Tools](#tools)
+
 [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
 [Exploratory Data Analysis](#exploratory-data-analysis)
+
 [Data Analysis](#data-analysis)
+
 ### Project Overview:
 ---
 ### Data Sources:
