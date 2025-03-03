@@ -6,7 +6,7 @@ This is where I documented my projects while self-learning Data Analysis
 ---
 [Project Overview](#project-overview)
 
-[Data Sources](#data-sources)
+[Data Source](#data-source)
 
 [Tools](#tools)
 
@@ -14,7 +14,10 @@ This is where I documented my projects while self-learning Data Analysis
 
 [Exploratory Data Analysis](#exploratory-data-analysis)
 
-[Data Analysis](#data-analysis)
+[Data Analysis and Transformation](#data-analysis-and-transformation)
+
+[Data Visualization and Reporting](data-visualization-and-reporting) 
+[Conclusion](conclusion)
 
 ### Project Overview:
 ---
@@ -22,7 +25,7 @@ I analyzed child mortality data from an open-source dataset compiled by Gapminde
 Using Pivot Tables and Charts in Microsoft Excel, I observed a steady decline in child mortality rates as healthcare systems evolved over time. Additionally, I identified war-ridden countries based on external research using Google search results on nations with ongoing or historical conflicts. I then applied the IFS function in Excel to tag each country as either "war-ridden" or "not war-ridden." Further analysis of selected war-ridden countries—such as Sudan, Somalia, Syria, Myanmar, and Afghanistan—showed that despite prolonged conflicts, under-five mortality rates generally declined. This underscores the crucial role of medical advancements and global health interventions in improving child survival rates, even in crisis settings.
 In conclusion, the steady reduction in under-five mortality is largely attributed to advancements in scientific medicine, public health policies, and digital health solutions. With the integration of artificial intelligence and modern technology, global healthcare continues to improve, emphasizing the importance of data-driven policies and sustained health interventions.
 
-### Data Sources:
+### Data Source:
 ---
 This is an open-source dataset compiled by Gapminder, using data from sources such as the World Bank and the UN [https://ourworldindata.org/grapher/child-mortality?time=earliest..latest].
 
@@ -38,16 +41,14 @@ In the initial phase of the data cleaning and preparation, I did the following:
 - Data formating
 - Missing data were intentionally ignored since they were empty year data showing the absence of records for certain countries in such years.
 
+### Exploratory Data Analysis
+This involves exploring the data to answer the following questions:
+1. What is the total number of countries analysed?
+2. What is the trend of the World's child mortality rate on the avaerage?
+3. What is the trend of Child mortality rate of 5 war-ridden countries on the avaerage?
 
-### Exploratory Data Analysis (EDA)
-EDA involved exploring the data to answer the following questions:
-1. What is the total number of countries analysed
-2. What is the trend of the World's child mortality rate on the avaerage
-3. What is the trend of Child mortality rate of 5 war-ridden countries on the avaerage
-
-### Data Analysis
-This includes the some basic lines of code, queries and DAX expressions used
-E.g
+### Data Analysis and Transformation
+This includes major formulas used:
 ```Excel
 =IFS(
     AND(C2>=1751, C2<=1879), "Pre-Scientific Medicine Era",
@@ -68,9 +69,11 @@ A2<>"Afghanistan"<>"Somalia"<>"Syria"<>"Sudan"<>"Myanmar","Not War-ridden"
 )
 ```
 
-|S/No|Description|Amount|
-|----|-----------|------|
-|1|Sales Volume at Aba|10,000|
-|2|number of new employees|8|
-|3|Average Revenue for the month|25,000|
+### Data Visualization and Reporting
+Pivot tables and pivot charts are used to represent my findings as below.
+
+
+
+### Conclusion
+Across 237 countries between 1751 and 2021, there has been a downward trend in the world's under-5 child mortality rate. War-ridden countries, regardless of prolonged wars or conflicts have also shown continous down trend on the average. These steady decline in child mortality rate are highly attributed to the evolvement of healthcare systems over time.
 
