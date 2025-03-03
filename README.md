@@ -16,9 +16,9 @@ This is where I documented my projects while self-learning Data Analysis
 
 [Data Analysis and Transformation](#data-analysis-and-transformation)
 
-[Data Visualization and Reporting](data-visualization-and-reporting) 
+[Data Visualization and Reporting](#data-visualization-and-reporting) 
 
-[Conclusion](conclusion)
+[Conclusion](#conclusion)
 
 ### Project Overview:
 ---
