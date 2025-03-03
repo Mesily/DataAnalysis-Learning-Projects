@@ -78,3 +78,7 @@ Pivot tables and pivot charts are used to represent my findings as below.
 ### Conclusion
 Across 237 countries between 1751 and 2021, there has been a downward trend in the world's under-5 child mortality rate. War-ridden countries, regardless of prolonged wars or conflicts have also shown continous down trend on the average. These steady decline in child mortality rate are highly attributed to the evolvement of healthcare systems over time.
 
+![pivot chart - child mortality rate](https://github.com/user-attachments/assets/cb2958b8-2480-4a60-b8b5-a40d5e027072)
+
+
+![Pivot table - child-mortality rate](https://github.com/user-attachments/assets/5bdb1f95-817a-450a-a7e1-f0de9490d72d)
