@@ -58,6 +58,15 @@ E.g
     OR(C2<1751, C2>2021), "Unknown"
 )
 ```
+```Excel
+=IFS(
+A2="Afghanistan","War-ridden",
+A2="Somalia","War-ridden",
+A2="Syria","War-ridden",
+A2="Sudan","War-ridden",A2="Myanmar","War-ridden",
+A2<>"Afghanistan"<>"Somalia"<>"Syria"<>"Sudan"<>"Myanmar","Not War-ridden"
+)
+```
 
 |S/No|Description|Amount|
 |----|-----------|------|
