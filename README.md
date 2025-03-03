@@ -1,6 +1,6 @@
 # Data_Analysis-Learning-Projects
 ---
-I am a graduate of Economics with a strong passion for data analysis, continuously expanding my skills through self-learning. My journey in data analytics has enabled me to explore and apply advanced techniques, as demonstrated in my practice projects. While I have made significant progress, I am still learning and refining my expertise in data visualization, statistical modeling, and business intelligence. Currently, I am versatile in the use of Microsoft-Excel, Power BI, and SQL. My work reflects my commitment to using data-driven insights to solve real-world challenges.
+I am a graduate of Economics with a strong passion for data analysis, continuously expanding my skills through self-learning. My journey in data analytics has enabled me to explore and apply advanced techniques, as demonstrated in my practice projects. While I have made significant progress, I am still learning and refining my expertise in data visualization, statistical modeling, and business intelligence. I am proficient in the use of Microsoft-Excel, Power BI, and SQL. My work reflects my commitment to using data-driven insights to solve real-world challenges.
 
 ## Project Title: Under-Five Child Mortality Rate
 ---
