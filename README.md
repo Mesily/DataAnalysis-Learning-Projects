@@ -33,23 +33,30 @@ This is an open-source dataset compiled by Gapminder, using data from sources su
   3. for Data visualization
 
 ### Data Cleaning and Preparation
-In the initial phase of the data cleaning and preparation, we did the following:
+In the initial phase of the data cleaning and preparation, I did the following:
 - Data loading and inspection
-- Handling missing variables
-- Data cleaning and formatting
+- Data formating
+- Missing data were intentionally ignored since they were empty year data showing the absence of records for certain countries in such years.
 
-### Exploratory Data Analysis
+
+### Exploratory Data Analysis (EDA)
 EDA involved exploring the data to answer the following questions:
-1. What is the overall sales tren?
-2. Which Product is the top sold?
-3. What products are on peak sales?
+1. What is the total number of countries analysed
+2. What is the trend of the World's child mortality rate on the avaerage
+3. What is the trend of Child mortality rate of 5 war-ridden countries on the avaerage
 
 ### Data Analysis
 This includes the some basic lines of code, queries and DAX expressions used
 E.g
-```SQL
-SELECT * FROM TABLE 1
-WHERE COUNTRY = NIGERIA
+```Excel
+=IFS(
+    AND(C2>=1751, C2<=1879), "Pre-Scientific Medicine Era",
+    AND(C2>=1880, C2<=1953), "Early Medical Science & Public Health Era",
+    AND(C2>=1954, C2<=1979), "Pre-Intervention Era",
+    AND(C2>=1980, C2<=2000), "Global Health Revolution Era",
+    AND(C2>=2001, C2<=2021), "Advanced Healthcare & Digital Health Era",
+    OR(C2<1751, C2>2021), "Unknown"
+)
 ```
 
 |S/No|Description|Amount|
