@@ -36,8 +36,8 @@ This is an open-source dataset compiled by Gapminder, using data from sources su
   2. for confirmation of data quality
      
 - Microsoft Excel
-  2. for data analysis and transformation
-  3. for Data visualization
+  1. for data analysis and transformation
+  2. for Data visualization
 
 ### Data Cleaning and Preparation
 At the data cleaning and preparation stage, I did the following:
