@@ -80,6 +80,8 @@ Pivot tables and pivot charts are used to represent my findings as below.
 ![Pivot Chart - Mortality-rate](https://github.com/user-attachments/assets/d36695f6-8982-47ef-8562-399e5adaf84e)
 
 
+
+
 ![Pivot table - child-mortality-rate](https://github.com/user-attachments/assets/d30c6a5a-e383-44f1-b3a9-422bac577229)
 
 
