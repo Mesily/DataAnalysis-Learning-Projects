@@ -50,6 +50,7 @@ This involves exploring the data to answer the following questions:
 1. What is the total number of countries analysed?
 2. What is the trend of the World's child mortality rate on the avaerage?
 3. What is the trend of Child mortality rate of 5 war-ridden countries on the avaerage?
+4. Is there a relationship between advancement in healthcare systems and the decline in under-5 child mortality rate?
 
 ### Data Analysis and Transformation
 This includes major formulas used:
